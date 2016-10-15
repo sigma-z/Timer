@@ -1,0 +1,21 @@
+{
+    "name": "sigma-z/timer",
+    "description": "PHP timer, can cumulate timings",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Steffen Zeidler",
+            "email": "sigma_z@sigma-scripts.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~4.7|~4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SigmaZ": "src"
+        }
+    }
+}
